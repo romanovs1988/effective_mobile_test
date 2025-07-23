@@ -32,7 +32,6 @@ effective_mobile_tests/
 
 ├── tests/
 
-
 │   ├── allure-results/    
 │   ├── conftest.py        
 │   └── test_cases.py     

@@ -66,4 +66,5 @@ effective_mobile_tests/
 Если у вас возникли вопросы или предложения, свяжитесь с автором проекта:
 
 Email: romanovs.1988@mail.ru
+
 Telegram: @Romanov_Se

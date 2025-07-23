@@ -8,7 +8,9 @@
 - **README.md**: Инструкции по установке и запуску.
 ## Структура проекта:
 effective_mobile_tests/
+
 ├── tests/
+
 │   ├── allure-results/    
 │   ├── conftest.py        
 │   └── test_cases.py     

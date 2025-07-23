@@ -4,13 +4,29 @@
 Проект состоит из нескольких ключевых компонентов:
 
 test_cases.py: основной файл, содержащий тесты для различных функций приложения.
+
+
+
 conftest.py: Фикстуры pytest (например, browser setup)
+
+
+
+
 Dockerfile: Dockerfile для сборки образа.
+
+
+
 requirements.txt: Зависимости Python.
+
+
+
 README.md: Инструкции по установке и запуску.
 
 
 Структура проекта:
+
+
+
 effective_mobile_tests/
 ├── tests/
 │   ├── allure-results/    
@@ -24,9 +40,21 @@ effective_mobile_tests/
 Для установки и настройки проекта выполните следующие шаги:
 
 Клонируйте репозиторий: https://github.com/romanovs1988/effective_mobile_test.git
+
+
+
+
 Установите необходимые зависимости: pip install -r requirements.txt
+
+
+
+
 Запустите тесты: pytest test_cases.py
+
+
 Использование
+
+
 Для запуска тестов достаточно выполнить команду: pytest test_cases.py
 
 Это запустит все тесты, указанные в файле test_cases.py, и выведет результаты в консоль.

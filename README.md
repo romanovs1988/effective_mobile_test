@@ -28,7 +28,11 @@ README.md: Инструкции по установке и запуску.
 
 
 effective_mobile_tests/
+
+
 ├── tests/
+
+
 │   ├── allure-results/    
 │   ├── conftest.py        
 │   └── test_cases.py     

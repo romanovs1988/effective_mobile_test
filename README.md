@@ -4,19 +4,21 @@
 Проект состоит из нескольких ключевых компонентов:
 
 test_cases.py: основной файл, содержащий тесты для различных функций приложения.
-actions/adds.py: дополнительные формы и методы, используемые в тестах.
-authorization.py: модуль авторизации пользователей.
-forms.py: файлы с формами, используемыми в приложении.
-registration.py: модуль регистрации новых пользователей.
+conftest.py: Фикстуры pytest (например, browser setup)
+Dockerfile: Dockerfile для сборки образа.
+requirements.txt: Зависимости Python.
+README.md: Инструкции по установке и запуску.
+
+
 Структура проекта:
 effective_mobile_tests/
 ├── tests/
-│   ├── allure-results/    # Папка для результатов Allure (игнорировать в git)
-│   ├── conftest.py        # Фикстуры pytest (например, browser setup)
-│   └── test_cases.py      # Тесты для главной страницы
-├── Dockerfile             # Dockerfile для сборки образа
-├── requirements.txt       # Зависимости Python
-├── README.md              # Инструкции по установке и запуску
+│   ├── allure-results/    
+│   ├── conftest.py        
+│   └── test_cases.py     
+├── Dockerfile            
+├── requirements.txt       
+├── README.md              
 
 Установка и настройка
 Для установки и настройки проекта выполните следующие шаги:

@@ -1,0 +1,14 @@
+name: emt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - requests
+  - selenium
+  - pip
+  - pip:
+      - webdriver-manager==4.0.2
+  - pytest
+  - allure-pytest
+  - flake8
+  - pytest-playwright
